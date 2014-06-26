@@ -1,0 +1,5 @@
+x=1:0.001:20
+s=2
+y=x
+Z=(1-(y.
+subplot(1,2,1):plot(x,y);subplot(1,2,2):plot(x,Z);

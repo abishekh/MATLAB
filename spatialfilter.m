@@ -1,0 +1,12 @@
+A=imread('X:/1.jpg');
+A=rgb2gray(A);
+h=fspecial('sobel');
+figure,imshow(A);
+title('Original image ');
+fil=imfilter(double(A),h,'replicate','conv');
+figure,imshow(fil,[]);
+title('Negative values of the image ');
+figure,imshow(abs(fil),[]);
+title('Absolute value of the image');
+figure,imshow(abs(fil)>0.2*abs(max(fil(:))));
+title('Threshold into a Binary image');

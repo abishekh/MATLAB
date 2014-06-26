@@ -1,0 +1,9 @@
+A=imread('X:/1.jpg');
+A=rgb2gray(A);
+figure,imshow(A);
+g=ordfilt2(A,median(1,3*3),ones(3,3));
+figure,imshow(g);
+g=ordfilt2(A,median(1,7*7),ones(7,7));
+figure,imshow(g);
+g=ordfilt2(A,median(1,9*9),ones(9,9));
+figure,imshow(g);

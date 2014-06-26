@@ -1,0 +1,11 @@
+x=0:.1:10;
+y=gaussmf(x,[0.5 5]);
+z=trimf(x,[4 6 8]);
+a=max(0,[y + z - 1]);
+subplot(2,1,1):plot(x,y,'g-',x,z,'r--');
+xlabel('Fuzzy Set A,B');
+ylabel('Membership Grades');
+subplot(2,1,2):plot(x,a);
+axis([0 10 0 1]);
+xlabel('Intersection using Bounded Product');
+ylabel('Membership Grades');

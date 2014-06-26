@@ -1,0 +1,12 @@
+A=imread('X:/1.jpg');
+A=rgb2gray(A);
+figure,imshow(A);
+g=ordfilt2(A,3*3,ones(3,3));
+figure,imshow(g);
+title('3*3 filter');
+g=ordfilt2(A,7*7,ones(7,7));
+figure,imshow(g);
+title('7*7 filter');
+g=ordfilt2(A,9*9,ones(9,9));
+figure,imshow(g);
+title('9*9 filter');
