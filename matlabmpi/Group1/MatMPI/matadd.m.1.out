@@ -1,0 +1,14 @@
+Warning: Unable to open display 'null'.  You will not be able to display graphics on the screen.
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2009 The MathWorks, Inc.
+                 Version 7.8.0.347 (R2009a) 32-bit (glnx86)
+                             February 12, 2009
+
+ 
+  To get started, type one of these: helpwin, helpdesk, or demo.
+  For product information, visit www.mathworks.com.
+ 
+>> >> >> >>     15    30    45
+    60    75    90
+
