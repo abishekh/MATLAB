@@ -1,0 +1,9 @@
+x=[1,1,1];
+N=50;
+X=fft(x,N);
+m=abs(X);
+a=angle(X);
+k=0:N-1;
+subplot(2,1,1),stem(k,m);
+xlabel('k');ylabel('|X(k)|');
+subplot(2,1,2);stem(k,a);xlabel('k');ylabel('arg(X(k))');
