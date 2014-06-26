@@ -1,0 +1,8 @@
+I=imread('1.jpg');
+subplot(1,2,1); imshow(I);
+title('Original');
+imcrop(I);
+subplot(2,2,1); imshow(o);
+
+
+

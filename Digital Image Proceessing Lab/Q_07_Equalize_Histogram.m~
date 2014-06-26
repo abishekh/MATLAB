@@ -1,0 +1,11 @@
+I=imread('1.jpg');
+I=rgb2gray(I)
+subplot(1,2,1); imshow(I);
+title('Color');
+J=histeq(I);
+figure,imshow(J);
+figure,imhist(J,64);
+subplot(2,2,1); imshow(o);
+title('Color');
+
+

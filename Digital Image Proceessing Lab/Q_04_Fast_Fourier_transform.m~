@@ -1,0 +1,8 @@
+orgImage = imread('X:\Pixel.jpg', 'jpg'); 
+subplot(1,2,1);imshow(orgImage);
+title('Color');
+fftImage = fftshift(fft2(orgImage));   % 2d fft 
+ampImage= abs(fftImage); 
+figure(2); imshow(ampImage,  [0  10000 ]); 
+subplot(1,2,1);(ampImage,  [0  10000 ]);
+title('Color');

@@ -1,0 +1,10 @@
+%Program to convert ot Gray Scale
+I=imread('1.jpg'); % Read an image
+whos;
+%figure('Name','Color');
+subplot(1,2,1);imshow(I);
+%imshow(I); %Display an image
+I=rgb2gray(I);
+%figure('Name','Gray'); 
+subplot(1,2,2);imshow(I);
+imwrite(I,output1
